@@ -1,0 +1,22 @@
+main page: /figure_shop
+admin page: /figure_shop/admin_area
+accounts - password: 
+        admin: admin@gmail.com - 123
+        user: user@gmail.com - 123
+
+- Setup localhost, MySQL
+- Mở trang localhost
+- Mở phpMyAdmin
+- Chọn "Mới" (New) ở tab bên trái để bắt đầu tạo csdl
+- Điền tên csdl là "figure_shop" + chọn type: uft8mb4_genaral_ci
+- Click "Tạo" (Go)
+- Click chọn "SQL"
+- Copy nội dung trong file Database_v111.txt rồi paste vào mục SQL
+- Click Run (Query/Thực hiện)
+- Click về Home (Trang chủ)
+- Chọn "User accounts" (Các tài khoản người dùng)
+- Mục "root - localhost - No - 	ALL PRIVILEGES - YES" -> click chọn "Edit privileges" (chỉnh sửa)
+- Click chọn "Database" (nằm giữa Global với Change password)
+- Mục "Add privileges on the following database(s):" -> chọn "figure_shop" -> Click "Go" (thực hiện)
+- Mục "Database-specific privileges " -> click "Check all" -> click "Go" (thực hiện)
+- Sau khi đã hiện thông báo "You have updated the privileges for 'root'@'localhost'." nghĩa là đã thành công.
